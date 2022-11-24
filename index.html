@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(103, 158, 152);
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML Task usage of basic tags.</h2>
+
+
+    <h4>1. Fix the bugs in below snippet.</h4>
+    <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+
+            &lt;head&gt;
+                &lt;title&gt;Document guvi&lt;/title&gt;
+            &lt;/head>
+
+            &lt;body&gt;
+                &lt;div&gt;
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                &lt;/div&gt;
+                &lt;div&gt;
+                    Guvi Geek Network
+                &lt;/div&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+    <hr>
+
+
+    <h4>2. Try the below one.</h4>
+    <pre>
+            &lt;html lang="en"&gt;
+            
+            &lt;head&gt;
+                &lt;title&gt;Document&lt;/title&gt;
+            &lt;/head&gt;
+            
+            &lt;body&gt;
+                guvi
+                &lt;div&gt;
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 &lt;/div&gt;
+                &lt;div&gt;
+                    Guvi Geek Network
+                &lt;/div&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+    <hr>
+
+
+    <h4>3. Design a contact us form with all fields as required.</h4>
+    <div style="border: solid black;width:300px; height: 380px; text-align: center;">
+        <h2>Contact Us</h2>
+        <form action="" style="font-size: 20px;">
+            <style>
+                textarea {
+                    width: 170px;
+                    height: 50px;
+                }
+            </style>
+            <label for=" firstName"><b>First Name</b></label><br>
+            <input type="text" id="firstName" name="fname" placeholder="First Name" required><br>
+            <label for="lastName"><b>Last Name</b></label><br>
+            <input type="text" id="lastName" name="lname" placeholder="Last Name" required><br>
+            <label for="emailId"><b>Email Address</b></label><br>
+            <input type="email" id="emailId" placeholder="Email Address" required><br>
+            <label for="message"><b>Message</b></label><br>
+            <textarea id="message" name="message" placeholder="Leave Message Here..." required></textarea><br>
+            <label for="contact"><b>Contact Number</b></label><br>
+            <input type="number" id="contact" name="contactNumber" placeholder="Conact Number" required><br>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+
+
+    <h3>4. Use certain HTML elements to display the following in a HTML page.</h3>
+    <div>
+        <h3>List</h3>
+        <ul>
+            <li>Programming Language</li>
+            <ul>
+                <li>JavaScript</li>
+                <ol type="a">
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                </ol>
+                <li>Python</li>
+                <ol type="a">
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+                <li>Java</li>
+                <ol type="a">
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hibernate</li>
+                </ol>
+            </ul>
+            <li>Database</li>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </ul>
+    </div>
+    <hr>
+
+
+    <h4>5. Create an element that helps you to open the https://google.com in separate new tab.</h4>
+    <div>
+        <a href="https://www.google.co.in" target="_blank">https://www.google.co.in</a>
+    </div>
+    <hr>
+
+
+    <h4>6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business).</h4>
+    <div>
+        <h3>Type of Employment</h3>
+        <form action="">
+            <input type="radio" id="salaried" name="empType" value="salaried">
+            <label for="salaried">Salaried</label>
+            <input type="radio" id="own" name="empType" value="ownbusiness">
+            <label for="own">Own Business</label><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <hr>
+
+
+    <h4>7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png).</h4>
+    <div style="border: solid black; width: 400px; height: 310px; padding-left: 12px ; background-color: white;">
+        <p style="background-color: red; width: 380px; color: white; font-size: 22px; text-align: center;">
+            <b>Yes! I want to Subscribe to<i> Mag-O-Zine</i></b>
+        </p>
+        <input type="text" id="fName"
+            style=" border-color: black; border-left: none; border-right: none; border-top: none;">&emsp;&emsp;
+        <input type="text" id="lName"
+            style="border-color: black;border-left: none; border-right: none; border-top: none;"><br>
+        <label for="fName">First Name</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <label for="lName">Last Name</label><br>
+        <input type="text" id="address"
+            style="border-color: black;border-left: none; border-right: none; border-top: none; width: 380px;"><br>
+        <label for="address">Address</label><br>
+        <input type="text" id="city"
+            style="border-color: black;border-left: none; border-right: none; border-top: none; width: 100px;">&emsp;&emsp;&emsp;
+        <input type="text" id="city"
+            style="border-color: black;border-left: none; border-right: none; border-top: none; width: 60px;">&emsp;&emsp;
+        <input type="text" id="city"
+            style="border-color: black;border-left: none; border-right: none; border-top: none; width: 120px;"><br>
+        <label for="city">City</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+        <label for="state">State</label>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <label for="zip">Zip</label><br><br>
+        <form action="">
+            <caption>Subscribe for:</caption>
+            <input type="radio" id="1year" name="subscribe">
+            <label for="1year" name="subscribe">1 year ($19.95)</label>
+            <input type="radio" id="1year" name="subscribe">
+            <label for="1year" name="subscribe">2 years ($35.00)</label><br>
+            <caption>Send me more information about:</caption><br>
+            <input type="checkbox" id="computer" name="info">
+            <label for="computer" name="info">Computer-Zine</label><br>
+            <input type="checkbox" id="fishing" name="info">
+            <label for="fishing" name="info">Fishing-Zine</label><br>
+            <input type="checkbox" id="cat-o" name="info">
+            <label for="cat-o" name="info">Cat-O-Zine</label><br>
+        </form>
+    </div>
+    <hr>
+
+
+    <h4>8. Use the table tag to design given image.</h4>
+    <div>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 700px;
+                height: 40px;
+                text-align: center;
+                background-color: white;
+            }
+        </style>
+        <table>
+            <caption><b>Health Chart</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan=" 2">State of Health</th>
+                    <th colspan="2">Fasting Value</th>
+                    <th>After Eating</th>
+                </tr>
+                <tr>
+                    <th>Minimum</th>
+                    <th>Maximum</th>
+                    <th>2hours After Eating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Healthy</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+                <tr>
+                    <td>Pre-diabetes</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140 to 200</td>
+                </tr>
+                <tr>
+                    <td>Diabetes</td>
+                    <td>more than 126</td>
+                    <td>N/A</td>
+                    <td>more than 200</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+
+    <h4>9. Write HTML input tags snippet to show default values for all Form elements.</h4>
+    <h3>All Type of Input Elements</h3>
+    <form action="" style="padding-left: 50px;line-height: 40px;">
+
+        <label for="rad">Radio</label>
+        <input type="radio" id="rad" name="radio" checked>
+        <input type="radio" id="rad" name="radio"><br>
+
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br>
+
+        <label for="num">Number</label>
+        <input type="number" id="num" value="21.5821"><br>
+
+        <label for="tex">Text</label>
+        <input type="text" id="tex" value="Success"><br>
+
+        <label for="pas">Password</label>
+        <input type="password" id="pas" value="abcdefghij"><br>
+
+        <label for="sea">Search</label>
+        <input type="search" id="sea" value="Guvi"><br>
+
+        <label for="te">Telephone</label>
+        <input type="tel" id="te" value="7485961230"><br>
+
+        <label for="ur">URL</label>
+        <input type="url" id="ur" value="https://www.google.com"><br>
+
+        <label for="em">Email</label>
+        <input type="email" id="em" value="abc@gmail.com"><br>
+
+        <label for="img">Image</label>
+        <input type="image" id="img" value=""><br>
+
+        <label for="ran">Range</label>
+        <input type="range" id="ran" value="25"><br>
+
+        <label for="button">Button</label>
+        <input type="button" id="button" value="Button"><br>
+
+        <label for="res">Reset</label>
+        <input type="reset" id="res" value="Reset Button"><br>
+
+        <label for="sub">Submit</label>
+        <input type="submit" id="sub" value="Click to Submit"><br>
+    </form>
+    </div>
+    <hr>
+
+
+    <h4>10. In your HTML page add the below line and Highlight it without using any CSS.
+        "HTML & CSS is awesome"
+    </h4>
+    <p><mark>HTML & CSS is awesome</mark> when creating website. These both work togather to make awesome websites.
+    </p>
+    <hr>
+
+
+    <h4>11. Create an HTML page, which should contain all types of input elements.</h4>
+    <div>
+
+        <h3>All Type of Input Elements</h3>
+        <form action="" style="padding-left: 50px;line-height: 40px;">
+
+            1.<label for="rad">Radio</label>
+            <input type="radio" id="rad"><br>
+
+            2.<label for="checkbox">Checkbox</label>
+            <input type="checkbox" id="checkbox"><br>
+
+            3.<label for="color">Color</label>
+            <input type="color" id="color"><br>
+
+            4.<label for="tim">Time</label>
+            <input type="time" id="tim"><br>
+
+            5.<label for="date">Date</label>
+            <input type="date" id="date"><br>
+
+            6.<label for="dateTime">Date & Time</label>
+            <input type="datetime" id="dateTime"><br>
+
+            7.<label for="dtl">DateTime Local </label>
+            <input type="datetime-local" id="dtl"><br>
+
+            8.<label for="we">Week</label>
+            <input type="week" id="we"><br>
+
+            9.<label for="mon">Month</label>
+            <input type="month" id="mon"><br>
+
+            10.<label for="num">Number</label>
+            <input type="number" id="num"><br>
+
+            11.<label for="tex">Text</label>
+            <input type="text" id="tex"><br>
+
+            12.<label for="pas">Password</label>
+            <input type="password" id="pas"><br>
+
+            13.<label for="sea">Search</label>
+            <input type="search" id="sea"><br>
+
+            14.<label for="te">Telephone</label>
+            <input type="tel" id="te"><br>
+
+            15.<label for="ur">URL</label>
+            <input type="url" id="ur"><br>
+
+            16.<label for="em">Email</label>
+            <input type="email" id="em"><br>
+
+            17.<label for="file">File</label>
+            <input type="file" id="file"><br>
+
+            18.<label for="hid">Hidden</label>
+            <input type="hidden" id="hid"><br>
+
+            19.<label for="img">Image</label>
+            <input type="image" id="img"><br>
+
+            20.<label for="ran">Range</label>
+            <input type="range" id="ran"><br>
+
+            21.<label for="button">Button</label>
+            <input type="button" id="button" value="Button"><br>
+
+            22.<label for="res">Reset</label>
+            <input type="reset" id="res"><br>
+
+            23.<label for="sub">Submit</label>
+            <input type="submit" id="sub"><br>
+        </form>
+    </div>
+    <hr>
+
+</body>
+
+</html>
